@@ -1,8 +1,8 @@
 <?php
 
-namespace GrantHolle\UsernameGenerator\Commands;
+namespace HansDeBoeck\UsernameGenerator\Commands;
 
-use GrantHolle\UsernameGenerator\Username;
+use HansDeBoeck\UsernameGenerator\Username;
 use Illuminate\Console\Command;
 
 class UsernameCommand extends Command

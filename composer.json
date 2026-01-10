@@ -15,26 +15,26 @@
         }
     ],
     "require": {
-        "php": "^8.4|^9.0",
-        "illuminate/contracts": "^10.0|^11.0|^12.0",
-        "illuminate/support": "^10.0|^11.0|^12.0",
-        "spatie/laravel-package-tools": "^1.9.2"
+        "php": "^8.4",
+        "illuminate/contracts": "^12.0",
+        "illuminate/support": "^12.0",
+        "spatie/laravel-package-tools": "^1.92.0"
     },
     "require-dev": {
-        "nunomaduro/collision": "^7.1|^8.1",
-        "orchestra/testbench": "^8.0|^9.0",
-        "pestphp/pest": "^2.0|^3.0",
-        "pestphp/pest-plugin-laravel": "^2.0|^3.0",
-        "spatie/laravel-ray": "^1.26"
+        "nunomaduro/collision": "^8.8",
+        "orchestra/testbench": "^10.0",
+        "pestphp/pest": "^4.3",
+        "pestphp/pest-plugin-laravel": "^4.0",
+        "spatie/laravel-ray": "^1.43"
     },
     "autoload": {
         "psr-4": {
-            "GrantHolle\\UsernameGenerator\\": "src"
+            "HansDeBoeck\\UsernameGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GrantHolle\\UsernameGenerator\\Tests\\": "tests"
+            "HansDeBoeck\\UsernameGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GrantHolle\\UsernameGenerator\\UsernameServiceProvider"
+                "HansDeBoeck\\UsernameGenerator\\UsernameServiceProvider"
             ],
             "aliases": {
-                "Username": "GrantHolle\\UsernameGenerator\\Facades\\Username"
+                "Username": "HansDeBoeck\\UsernameGenerator\\Facades\\Username"
             }
         }
     },
