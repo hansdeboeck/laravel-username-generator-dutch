@@ -1,21 +1,21 @@
 {
-    "name": "grantholle/laravel-username-generator",
+    "name": "hansdeboeck/laravel-username-generator",
     "description": "Generate a random, kid-safe username.",
     "keywords": [
         "username",
         "username generator"
     ],
-    "homepage": "https://github.com/grantholle/laravel-username-generator",
+    "homepage": "https://github.com/hansdeboeck/laravel-username-generator-dutch",
     "license": "MIT",
     "authors": [
         {
-            "name": "Grant Holle",
-            "email": "hollegrant@gmail.com",
+            "name": "Hans De Boeck",
+            "email": "hans@deboeck.dev",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.4|^9.0",
         "illuminate/contracts": "^10.0|^11.0|^12.0",
         "illuminate/support": "^10.0|^11.0|^12.0",
         "spatie/laravel-package-tools": "^1.9.2"
