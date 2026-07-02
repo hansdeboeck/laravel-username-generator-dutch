@@ -171,7 +171,6 @@ class Noun extends WordSelector
         'schap',
         'scholekster',
         'schildpad',
-        'schimmelvis',
         'schorpioen',
         'sijs',
         'sint-jacobsschelp',
