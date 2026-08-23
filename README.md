@@ -1,7 +1,7 @@
 # Generate a random, kid-safe username.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/HansDeBoeck/laravel-username-generator.svg?style=flat-square)](https://packagist.org/packages/HansDeBoeck/laravel-username-generator)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/HansDeBoeck/laravel-username-generator/run-tests?label=tests)](https://github.com/HansDeBoeck/laravel-username-generator/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/hansdeboeck/laravel-username-generator-dutch/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/hansdeboeck/laravel-username-generator-dutch/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/HansDeBoeck/laravel-username-generator.svg?style=flat-square)](https://packagist.org/packages/HansDeBoeck/laravel-username-generator)
 
 Generate a username with flexible configuration options. For now the nouns are animal names.
@@ -89,7 +89,6 @@ Options:
 
 ```bash
 composer test
-composer analyse
 ```
 
 ## Changelog
